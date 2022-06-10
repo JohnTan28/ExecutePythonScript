@@ -1,0 +1,2 @@
+Python exe file path
+C:\Users\jtan15\AppData\Local\Programs\Python\Python39

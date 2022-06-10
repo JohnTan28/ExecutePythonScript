@@ -1,0 +1,13 @@
+
+pip install googlemaps
+from pprint import pprint
+import googlemaps
+
+API_KEY = 'AIzaSyAk-jEzMUJGLwRId3hdy0DQmg3DGx9A3cw'
+
+map_client = googlemaps.Client(API_KEY)
+
+work_place_address = '1 Market St, San Francisco, CA'
+response = map_client.geocode(work_place_address)
+pprint(response)
+print(response[0]['geometry'])
